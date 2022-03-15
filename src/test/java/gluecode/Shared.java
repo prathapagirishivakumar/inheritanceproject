@@ -14,8 +14,8 @@ public class Shared
 	public Scenario s; //to customize results file
 	
 	@Before
-	public void method(Scenario x)
+	public void method(Scenario y)
 	{
-		s=x; //define scenario object to a scenario, which is coming into execution for next
+		s=y; //define scenario object to a scenario, which is coming into execution for next
 	}
 }
